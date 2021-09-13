@@ -3,27 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373AA49426EC9C98007A556C /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA49326EC9C98007A556C /* TimerCell.swift */; };
+		373AA49626ECA0FF007A556C /* TimersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA49526ECA0FF007A556C /* TimersViewModel.swift */; };
+		373AA49A26ECD449007A556C /* TimerTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA49926ECD449007A556C /* TimerTask.swift */; };
+		373AA49F26EE49C4007A556C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 373AA49E26EE49C4007A556C /* Realm */; };
+		373AA4A126EE49C4007A556C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 373AA4A026EE49C4007A556C /* RealmSwift */; };
+		373AA4A326EE49E1007A556C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373AA4A226EE49E1007A556C /* StorageManager.swift */; };
 		37CD4EC826EC68DB00437D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD4EC726EC68DB00437D17 /* AppDelegate.swift */; };
 		37CD4ECA26EC68DB00437D17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD4EC926EC68DB00437D17 /* SceneDelegate.swift */; };
-		37CD4ECC26EC68DB00437D17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD4ECB26EC68DB00437D17 /* ViewController.swift */; };
-		37CD4ECF26EC68DB00437D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CD4ECD26EC68DB00437D17 /* Main.storyboard */; };
+		37CD4ECC26EC68DB00437D17 /* TimersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CD4ECB26EC68DB00437D17 /* TimersViewController.swift */; };
 		37CD4ED126EC68DE00437D17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CD4ED026EC68DE00437D17 /* Assets.xcassets */; };
-		37CD4ED426EC68DE00437D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CD4ED226EC68DE00437D17 /* LaunchScreen.storyboard */; };
+		37CD4EDC26EC86BF00437D17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CD4EDB26EC86BF00437D17 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		373AA49326EC9C98007A556C /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		373AA49526ECA0FF007A556C /* TimersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersViewModel.swift; sourceTree = "<group>"; };
+		373AA49926ECD449007A556C /* TimerTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTask.swift; sourceTree = "<group>"; };
+		373AA4A226EE49E1007A556C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		37CD4EC426EC68DB00437D17 /* SimpleTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CD4EC726EC68DB00437D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37CD4EC926EC68DB00437D17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37CD4ECB26EC68DB00437D17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37CD4ECE26EC68DB00437D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37CD4ECB26EC68DB00437D17 /* TimersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersViewController.swift; sourceTree = "<group>"; };
 		37CD4ED026EC68DE00437D17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		37CD4ED326EC68DE00437D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37CD4ED526EC68DE00437D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CD4EDB26EC86BF00437D17 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373AA4A126EE49C4007A556C /* RealmSwift in Frameworks */,
+				373AA49F26EE49C4007A556C /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,13 +66,16 @@
 		37CD4EC626EC68DB00437D17 /* SimpleTimer */ = {
 			isa = PBXGroup;
 			children = (
+				37CD4ECB26EC68DB00437D17 /* TimersViewController.swift */,
+				373AA49526ECA0FF007A556C /* TimersViewModel.swift */,
+				373AA49326EC9C98007A556C /* TimerCell.swift */,
+				373AA49926ECD449007A556C /* TimerTask.swift */,
+				373AA4A226EE49E1007A556C /* StorageManager.swift */,
 				37CD4EC726EC68DB00437D17 /* AppDelegate.swift */,
 				37CD4EC926EC68DB00437D17 /* SceneDelegate.swift */,
-				37CD4ECB26EC68DB00437D17 /* ViewController.swift */,
-				37CD4ECD26EC68DB00437D17 /* Main.storyboard */,
-				37CD4ED026EC68DE00437D17 /* Assets.xcassets */,
-				37CD4ED226EC68DE00437D17 /* LaunchScreen.storyboard */,
+				37CD4EDB26EC86BF00437D17 /* LaunchScreen.storyboard */,
 				37CD4ED526EC68DE00437D17 /* Info.plist */,
+				37CD4ED026EC68DE00437D17 /* Assets.xcassets */,
 			);
 			path = SimpleTimer;
 			sourceTree = "<group>";
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = SimpleTimer;
+			packageProductDependencies = (
+				373AA49E26EE49C4007A556C /* Realm */,
+				373AA4A026EE49C4007A556C /* RealmSwift */,
+			);
 			productName = SimpleTimer;
 			productReference = 37CD4EC426EC68DB00437D17 /* SimpleTimer.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +127,9 @@
 				Base,
 			);
 			mainGroup = 37CD4EBB26EC68DB00437D17;
+			packageReferences = (
+				373AA49D26EE49C4007A556C /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 37CD4EC526EC68DB00437D17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -124,9 +144,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CD4ED426EC68DE00437D17 /* LaunchScreen.storyboard in Resources */,
+				37CD4EDC26EC86BF00437D17 /* LaunchScreen.storyboard in Resources */,
 				37CD4ED126EC68DE00437D17 /* Assets.xcassets in Resources */,
-				37CD4ECF26EC68DB00437D17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,32 +156,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CD4ECC26EC68DB00437D17 /* ViewController.swift in Sources */,
+				373AA49626ECA0FF007A556C /* TimersViewModel.swift in Sources */,
+				37CD4ECC26EC68DB00437D17 /* TimersViewController.swift in Sources */,
 				37CD4EC826EC68DB00437D17 /* AppDelegate.swift in Sources */,
 				37CD4ECA26EC68DB00437D17 /* SceneDelegate.swift in Sources */,
+				373AA49A26ECD449007A556C /* TimerTask.swift in Sources */,
+				373AA49426EC9C98007A556C /* TimerCell.swift in Sources */,
+				373AA4A326EE49E1007A556C /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		37CD4ECD26EC68DB00437D17 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37CD4ECE26EC68DB00437D17 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		37CD4ED226EC68DE00437D17 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37CD4ED326EC68DE00437D17 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		37CD4ED626EC68DE00437D17 /* Debug */ = {
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q5QZZ9XSR;
 				INFOPLIST_FILE = SimpleTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +301,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = boyko.gri.SimpleTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Q5QZZ9XSR;
 				INFOPLIST_FILE = SimpleTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = boyko.gri.SimpleTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +347,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		373AA49D26EE49C4007A556C /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		373AA49E26EE49C4007A556C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 373AA49D26EE49C4007A556C /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		373AA4A026EE49C4007A556C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 373AA49D26EE49C4007A556C /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 37CD4EBC26EC68DB00437D17 /* Project object */;
 }
